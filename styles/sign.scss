@@ -1,0 +1,15 @@
+@mixin button{
+    border: none;
+    border-radius: 2px;
+    background: #ff0000;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.logo{
+    width: 150px;
+}
+.sign-in{
+    background-color: #000;
+    opacity: 0.7;
+}

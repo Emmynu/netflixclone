@@ -1,0 +1,391 @@
+.min{
+    background-image: url(netflix-3.png);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+.out{
+     display: flex;
+     background-color: #000;
+     border: 2px #303030 solid;
+     border-radius: 10px;
+     width: 50vh;
+     height: 13vh;
+     color: #fff;
+     position: absolute;
+     top: 215vh;
+     left: 19vh;
+     align-items: center;
+
+}
+.things{
+    display: block;
+    margin-left: 20px;
+    line-height: 8px;
+}
+.things h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img2{
+    padding-top: 3px;
+    height: 11vh;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: blue;
+}
+
+@media (max-width: 1024px) {
+   
+    .min{
+        background-color: #000;
+        background-image: none;
+    }
+    .header{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+   .header .logo{
+        font-size: 26px;
+        margin-left: 20px;
+    }
+    .header .sign-in{
+        margin-right: 30px;
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .center h1{
+        font-size: 42px;
+    }
+    .center .h2{
+        font-size: 21px;
+    }
+    .center .h3{
+        font-size: 14px;
+    }
+    .center .text, .text2{
+        width: 450px;
+        height: 45px;
+        font-size: 16px;
+    
+    }
+    .center .btn2, .btn3{
+        padding:0;
+        width: 180px;
+        height: 50px;
+        word-spacing: 0px;
+        font-size: 13px;
+        position: relative;
+        top: 2px;
+        border-radius: 2px;
+        font-size: 24px;
+    }
+    .second-body{
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .second-body .second-body-text h1{
+        font-size: 43px;
+        margin-left: 50px;
+    }
+    .second-body .second-body-text h2{
+        font-size: 24px;
+        padding: 0;
+        margin-left: 50px;
+        width: 60%;
+    }
+    .second-body .second-body-image{
+        width: 40vw;
+        height: 25vh;
+        margin: 0;
+    }
+    .third-body  .image{
+        width: 37vw;
+        height: 20vh;
+        margin-top: -13px;
+    }
+    .third-body  .third-body-text h1{
+        font-size: 2.7rem;
+        width: 60%;
+        font-weight: 700;
+        margin-left: 130px;
+    }
+    .third-body  .third-body-text h2{
+        font-size: 24px;
+        margin-left: 130px;
+    }
+    .out{
+        position: absolute;
+        top: 90vh;
+        left: 6vh;
+        width: 25vw;
+        background-color: rgb(0, 0, 0);
+        height: 6vh;
+    }
+    .img2{
+        height: 5vh;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 10px;
+    }
+    .things h1{
+        font-size: 17px;
+    }
+    .fourth-body h1{
+        margin-left: 55px;
+    }
+    .fourth-body h2{
+        margin-left: 55px;
+        width: 44%;
+    }
+    .fifth-body .fifth-body-image{
+        width: 40vw;
+        height: 23vh;
+        margin-left: 0;
+     }
+     .fifth-body .fifth-body-text h1{
+        width: 70%;
+     }
+     .fifth-body .fifth-body-text h2{
+        font-size: 23px;
+        width: 60%;
+        margin-left: 20px;
+     }
+     .sixth-body h1{
+        font-size: 34px;
+     }
+     .button,.button2, .button3, .button4, .button5, .button6{
+        width: 550px;
+        margin: .2% auto 0;
+        margin-left: 200px;
+     }
+     .answer, .answer2, .answer3, .answer4, .answer5, .answer6{
+        width: 550px;
+        font-size: 20px;
+     }
+     .mar{
+        margin: 0;
+        text-align: none;
+     }
+     .h4{
+        font-size: 12px;
+     }
+     .text2{
+        margin-left: 200px;
+     }
+}
+
+@media (max-width: 800px) {
+    .min{
+        background-image: url(netflix-3.png);
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+    }
+    .header .logo{
+        width: 100px;
+    }
+    .header .sign-in{
+        margin-right: 30px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .center{
+        padding-bottom: 20px;
+    }
+    .center h1{
+        font-size: 27px;
+        margin-top: 100px;
+    }
+    .center .h2{
+        font-size: 16px;
+    }
+    .center .h3, .h4{
+        width: 70%;
+        font-size: 15px;
+        margin-left: 20%;
+        margin-top: 0px;
+    }
+    .center .text, .text2{
+        width: 300px;
+        margin-left: 30px;
+        height:37px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .center .btn2, .btn3{
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+   .center .text-btn{
+        padding-bottom: 50px;
+    }
+    .second-body{
+        display: block;
+        border-width: 5px;
+    }
+    .second-body .second-body-text h1{
+        font-size: 24px;
+        padding-top: 30px;
+        text-align: center;
+        margin-left: -30px;
+        
+    }
+    .second-body .second-body-text h2{
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        width: 80%;
+        margin-left: 30px;
+    }
+    .second-body .second-body-image{
+        width: 73vw;
+        height: 36vh;
+        margin-left: 36px;
+    }
+    .third-body{
+        border-width: 5px;
+        display: block;
+        padding-bottom: 40px;
+    }
+    .third-body .third-body-text{
+        position: relative;
+        top: -160px;
+        margin-top: -20px;
+        
+    }
+    .third-body  .third-body-text h1{
+        font-size: 24px;
+        text-align: center;
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .third-body .third-body-text h2{
+        font-size: 17px;
+        text-align: center;
+        margin: 0;
+        margin-left: 40px;
+    }
+    .third-body .image{
+        position: relative;
+        top: 120px;
+        left: 40px;
+        width: 55vw;
+        height: 22vh;
+        margin-bottom: 20px;
+    }
+    .fourth-body{
+        padding-top: 30px;
+        border-width: 5px;
+    }
+    .fourth-body h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    .fourth-body h2{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 17px;
+        width: 80%;
+        padding-bottom: 30px;
+    }
+     .fifth-body{
+        display: block;
+        border-width: 5px   ;
+        padding: 0;
+     }
+     .fifth-body .fifth-body-image{
+        position: relative;
+        top: 0px;
+        left: 60px;
+        width: 55vw;
+        height: 22vh;
+        margin-bottom: 20px;
+     }
+     .fifth-body .fifth-body-text h1{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 45px;
+     }
+      .fifth-body .fifth-body-text h2{
+        text-align: center;
+        margin-left: 40px;
+        font-size: 16px;
+        width: 75%;
+        padding-bottom: 30px;
+        line-height: 20px;
+      }
+      .sixth-body{
+        border-width: 5px;
+      }
+      .sixth-body h1{
+        font-size: 24px;
+        margin: 0;
+        margin-left: -10px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .button,.button2, .button3, .button4, .button5, .button6{
+        margin: 0;
+        width: 300px;
+        height: 40px;
+        margin-top: 5px;
+      }
+      .button p, .button2 p, .button3 p, .button4 p, .button5 p, .button6 p{
+        font-size: 15px;
+        margin-top: 10px;
+      }
+      .text2{
+        margin: 0;
+        width: 300px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+      }
+      .btn3{
+        width: 150px;
+        margin-left: 100px;
+      }
+      .h4{
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: center;
+        width: 80%;
+      }
+      .foot{
+        display: block;
+        line-height: 30px;
+      }
+      .top{
+        margin: 0;
+      }
+      .footer{
+        margin: 0;
+      }
+      .answer, .answer2, .answer3, .answer4, .answer5, .answer6{
+        width: 300px;
+        margin: 0;
+      }
+      .answer h2, .answer2 h2, .answer3 h2, .answer4 h2, .answer5 h2, .answer6 h2{
+        font-size: 14px;
+        text-align: left;
+      }
+      .out{
+        display: none;
+    }
+ 
+}
+
+@media (max-width: 800px) {
+    
+}
